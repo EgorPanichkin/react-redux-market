@@ -9,7 +9,7 @@ export default function Home() {
 
   useEffect(() => {
     dispatch(fetchProds())
-  }, [])
+  }, [dispatch])
 
   const handleClickBuy = (e) => {
     const id = e.target.value
